@@ -355,6 +355,18 @@
   resolved "https://registry.npmjs.org/@headlessui/vue/-/vue-1.7.16.tgz"
   integrity sha512-nKT+nf/q6x198SsyK54mSszaQl/z+QxtASmgMEJtpxSX2Q0OPJX0upS/9daDyiECpeAsvjkoOrm2O/6PyBQ+Qg==
 
+"@iconify/types@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.npmjs.org/@iconify/types/-/types-2.0.0.tgz"
+  integrity sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==
+
+"@iconify/vue@^4.1.1":
+  version "4.1.1"
+  resolved "https://registry.npmjs.org/@iconify/vue/-/vue-4.1.1.tgz"
+  integrity sha512-RL85Bm/DAe8y6rT6pux7D2FJSiUEM/TPfyK7GrbAOfTSwrhvwJW+S5yijdGcmtXouA8MtuH9C7l4hiSE4mLMjg==
+  dependencies:
+    "@iconify/types" "^2.0.0"
+
 "@ioredis/commands@^1.1.1":
   version "1.2.0"
   resolved "https://registry.npmjs.org/@ioredis/commands/-/commands-1.2.0.tgz"
@@ -617,7 +629,7 @@
     which "^3.0.1"
     ws "^8.13.0"
 
-"@nuxt/kit@^3.6.5", "@nuxt/kit@^3.7.0", "@nuxt/kit@3.7.0":
+"@nuxt/kit@^3.5.1", "@nuxt/kit@^3.6.5", "@nuxt/kit@^3.7.0", "@nuxt/kit@3.7.0":
   version "3.7.0"
   resolved "https://registry.npmjs.org/@nuxt/kit/-/kit-3.7.0.tgz"
   integrity sha512-bsPRb2NTLHRacjyybhhA3pZFIqo2pxB6bcP4FQDuzlGzVTI5PtJzbfNpkmQC7q+LZt8K0pNlxKVGisDvZctk6w==
@@ -728,6 +740,15 @@
     vite-node "^0.33.0"
     vite-plugin-checker "^0.6.2"
     vue-bundle-renderer "^2.0.0"
+
+"@nuxtjs/google-fonts@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.npmjs.org/@nuxtjs/google-fonts/-/google-fonts-3.0.2.tgz"
+  integrity sha512-9DY0NcBnx/I6+3Lr7NeB64k5A7GbqCN1pqVgU9ld00NEXSpDUht2+lG8mcC5UnmpTi8KCdCJckDbD/bqW3ncYg==
+  dependencies:
+    "@nuxt/kit" "^3.6.5"
+    google-fonts-helper "^3.3.1"
+    pathe "^1.1.1"
 
 "@parcel/watcher-darwin-arm64@2.3.0":
   version "2.3.0"
@@ -1157,7 +1178,7 @@
   resolved "https://registry.npmjs.org/@vue/shared/-/shared-3.3.4.tgz"
   integrity sha512-7OjdcV8vQ74eiz1TZLzZP4JwqM5fA94K6yntPS5Z25r9HDuGNzaGdgvwKYq6S+MxwF0TFRwe50fIR/MYnakdkQ==
 
-"@vueuse/core@^10.4.1", "@vueuse/core@10.4.1":
+"@vueuse/core@^10.1.2", "@vueuse/core@^10.4.1", "@vueuse/core@10.4.1":
   version "10.4.1"
   resolved "https://registry.npmjs.org/@vueuse/core/-/core-10.4.1.tgz"
   integrity sha512-DkHIfMIoSIBjMgRRvdIvxsyboRZQmImofLyOHADqiVbQVilP8VVHDhBX2ZqoItOgu7dWa8oXiNnScOdPLhdEXg==
@@ -1172,6 +1193,20 @@
   resolved "https://registry.npmjs.org/@vueuse/metadata/-/metadata-10.4.1.tgz"
   integrity sha512-2Sc8X+iVzeuMGHr6O2j4gv/zxvQGGOYETYXEc41h0iZXIRnRbJZGmY/QP8dvzqUelf8vg0p/yEA5VpCEu+WpZg==
 
+"@vueuse/motion@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.npmjs.org/@vueuse/motion/-/motion-2.0.0.tgz"
+  integrity sha512-V3TAlbt1OPmb9DZFoFCz9WC3Oue54t9VHlavSWm+VU1JNimYcd+pc6aGR/hgaHUAU9tOPRHoDTleSrv2zrdIsw==
+  dependencies:
+    "@vueuse/core" "^10.1.2"
+    "@vueuse/shared" "^10.1.2"
+    csstype "^3.1.2"
+    framesync "^6.1.2"
+    popmotion "^11.0.5"
+    style-value-types "^5.1.2"
+  optionalDependencies:
+    "@nuxt/kit" "^3.5.1"
+
 "@vueuse/nuxt@^10.4.1":
   version "10.4.1"
   resolved "https://registry.npmjs.org/@vueuse/nuxt/-/nuxt-10.4.1.tgz"
@@ -1184,7 +1219,7 @@
     nuxt "^3.6.5"
     vue-demi ">=0.14.5"
 
-"@vueuse/shared@10.4.1":
+"@vueuse/shared@^10.1.2", "@vueuse/shared@10.4.1":
   version "10.4.1"
   resolved "https://registry.npmjs.org/@vueuse/shared/-/shared-10.4.1.tgz"
   integrity sha512-vz5hbAM4qA0lDKmcr2y3pPdU+2EVw/yzfRsBdu+6+USGa4PxqSQRYIUC9/NcT06y+ZgaTsyURw2I9qOFaaXHAg==
@@ -2038,7 +2073,7 @@ csso@^5.0.5:
   dependencies:
     css-tree "~2.2.0"
 
-csstype@^3.1.1:
+csstype@^3.1.1, csstype@^3.1.2:
   version "3.1.2"
   resolved "https://registry.npmjs.org/csstype/-/csstype-3.1.2.tgz"
   integrity sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==
@@ -2120,7 +2155,7 @@ decompress@^4.2.1:
     pify "^2.3.0"
     strip-dirs "^2.0.0"
 
-deepmerge@^4.2.2:
+deepmerge@^4.2.2, deepmerge@^4.3.1:
   version "4.3.1"
   resolved "https://registry.npmjs.org/deepmerge/-/deepmerge-4.3.1.tgz"
   integrity sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==
@@ -2700,6 +2735,13 @@ fraction.js@^4.2.0:
   resolved "https://registry.npmjs.org/fraction.js/-/fraction.js-4.2.1.tgz"
   integrity sha512-/KxoyCnPM0GwYI4NN0Iag38Tqt+od3/mLuguepLgCAKPn0ZhC544nssAW0tG2/00zXEYl9W+7hwAIpLHo6Oc7Q==
 
+framesync@^6.1.2, framesync@6.1.2:
+  version "6.1.2"
+  resolved "https://registry.npmjs.org/framesync/-/framesync-6.1.2.tgz"
+  integrity sha512-jBTqhX6KaQVDyus8muwZbBeGGP0XgujBRbQ7gM7BRdS3CadCZIHiawyzYLnafYcvZIh5j8WE7cxZKFn7dXhu9g==
+  dependencies:
+    tslib "2.4.0"
+
 fresh@0.5.2:
   version "0.5.2"
   resolved "https://registry.npmjs.org/fresh/-/fresh-0.5.2.tgz"
@@ -2943,6 +2985,16 @@ globby@^13.2.2:
     merge2 "^1.4.1"
     slash "^4.0.0"
 
+google-fonts-helper@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.npmjs.org/google-fonts-helper/-/google-fonts-helper-3.3.1.tgz"
+  integrity sha512-zMycq4nUUaplGe7pzCOGBC52LB3VpwxS9temmCx1EucEaBdBEpG5MeQlJhtRu63gKI1hb/l+yHkasQtee59sFA==
+  dependencies:
+    deepmerge "^4.3.1"
+    hookable "^5.5.3"
+    ofetch "^1.1.1"
+    ufo "^1.1.2"
+
 gopd@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/gopd/-/gopd-1.0.1.tgz"
@@ -3026,6 +3078,11 @@ hash-sum@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/hash-sum/-/hash-sum-2.0.0.tgz"
   integrity sha512-WdZTbAByD+pHfl/g9QSsBIIwy8IT+EsPiKDs0KNX+zSHhdDLFKdZu0BQHljvO+0QI/BasbMSUa8wYNCZTvhslg==
+
+hey-listen@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.npmjs.org/hey-listen/-/hey-listen-1.0.8.tgz"
+  integrity sha512-COpmrF2NOg4TBWUJ5UVyaCU2A88wEMkUPK4hNqyCkqHbxT92BbvfjoSozkAIIm6XhicGlJHhFdullInrdhwU8Q==
 
 hookable@^5.5.3:
   version "5.5.3"
@@ -4226,6 +4283,14 @@ nuxi@^3.7.0:
   optionalDependencies:
     fsevents "~2.3.3"
 
+nuxt-icon@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.npmjs.org/nuxt-icon/-/nuxt-icon-0.5.0.tgz"
+  integrity sha512-ND4yh8kW4VyIbORP3cWjgVrOAvy6QSDFDTJltakdqmxVfVysNIs/bx2NzlkHeR1EOS8E/jVcemfTPmRsJ7WUVw==
+  dependencies:
+    "@iconify/vue" "^4.1.1"
+    "@nuxt/kit" "^3.6.5"
+
 nuxt@^3.6.5, nuxt@^3.7.0:
   version "3.7.0"
   resolved "https://registry.npmjs.org/nuxt/-/nuxt-3.7.0.tgz"
@@ -4541,6 +4606,16 @@ pkg-types@^1.0.3:
     jsonc-parser "^3.2.0"
     mlly "^1.2.0"
     pathe "^1.1.0"
+
+popmotion@^11.0.5:
+  version "11.0.5"
+  resolved "https://registry.npmjs.org/popmotion/-/popmotion-11.0.5.tgz"
+  integrity sha512-la8gPM1WYeFznb/JqF4GiTkRRPZsfaj2+kCxqQgr2MJylMmIKUwBfWW8Wa5fml/8gmtlD5yI01MP1QCZPWmppA==
+  dependencies:
+    framesync "6.1.2"
+    hey-listen "^1.0.8"
+    style-value-types "5.1.2"
+    tslib "2.4.0"
 
 postcss-calc@^9.0.0:
   version "9.0.1"
@@ -5457,6 +5532,14 @@ strip-literal@^1.3.0:
   dependencies:
     acorn "^8.10.0"
 
+style-value-types@^5.1.2, style-value-types@5.1.2:
+  version "5.1.2"
+  resolved "https://registry.npmjs.org/style-value-types/-/style-value-types-5.1.2.tgz"
+  integrity sha512-Vs9fNreYF9j6W2VvuDTP7kepALi7sk0xtk2Tu8Yxi9UoajJdEVpNpCov0HsLTqXvNGKX+Uv09pkozVITi1jf3Q==
+  dependencies:
+    hey-listen "^1.0.8"
+    tslib "2.4.0"
+
 stylehacks@^6.0.0:
   version "6.0.0"
   resolved "https://registry.npmjs.org/stylehacks/-/stylehacks-6.0.0.tgz"
@@ -5673,6 +5756,11 @@ tslib@^2.0.1, tslib@^2.1.0:
   version "2.6.2"
   resolved "https://registry.npmjs.org/tslib/-/tslib-2.6.2.tgz"
   integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==
+
+tslib@2.4.0:
+  version "2.4.0"
+  resolved "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+  integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
 
 tsx@^3.2.1:
   version "3.12.7"
@@ -6071,7 +6159,7 @@ vue-router@^4.1.0, vue-router@^4.2.4:
   dependencies:
     "@vue/devtools-api" "^6.5.0"
 
-"vue@^2.7.0 || ^3.2.25", vue@^3.0.0, "vue@^3.0.0-0 || ^2.6.0", vue@^3.2.0, vue@^3.2.25, vue@^3.3.4, "vue@>=2.7 || >=3", vue@3.3.4:
+"vue@^2.7.0 || ^3.2.25", vue@^3.0.0, "vue@^3.0.0-0 || ^2.6.0", vue@^3.2.0, vue@^3.2.25, vue@^3.3.4, "vue@>=2.7 || >=3", vue@>=3, vue@>=3.0.0, vue@3.3.4:
   version "3.3.4"
   resolved "https://registry.npmjs.org/vue/-/vue-3.3.4.tgz"
   integrity sha512-VTyEYn3yvIeY1Py0WaYGZsXnz3y5UnGi62GjVEqvEGPl6nxbOrCXbVOTQWBEJUqAyTUk2uJ5JLVnYJ6ZzGbrSw==

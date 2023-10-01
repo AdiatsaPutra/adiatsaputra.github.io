@@ -44,7 +44,7 @@
       <img
         src="/me.jpeg"
         alt="Me"
-        class="w-52 h-52 rounded-lg pb-5 md:pb-0 self-center md:self-start"
+        class="w-52 h-52 rounded-lg pb-5 md:pb-0 self-center md:self-start hover:scale-105 transition duration-300"
       />
     </div>
   </section>

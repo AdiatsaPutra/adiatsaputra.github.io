@@ -26,18 +26,22 @@
             Download CV
           </a>
           <div class="flex gap-2">
-            <Icon
-              name="uil:github"
-              color="white"
-              size="1.5em"
-              class="cursor-pointer"
-            />
-            <Icon
-              name="uil:linkedin"
-              color="white"
-              size="1.5em"
-              class="cursor-pointer"
-            />
+            <a href="https://github.com/AdiatsaPutra">
+              <Icon
+                name="uil:github"
+                color="white"
+                size="1.5em"
+                class="cursor-pointer"
+              />
+            </a>
+            <a href="https://www.linkedin.com/in/adiatsa/">
+              <Icon
+                name="uil:linkedin"
+                color="white"
+                size="1.5em"
+                class="cursor-pointer"
+              />
+            </a>
           </div>
         </div>
       </div>

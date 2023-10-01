@@ -31,13 +31,18 @@
         />
         <HomeProjectCard
           title="Taurus"
-          desc="aurus is an application that can make it easier for leasing to track vehicles paid in installments by partners so that it can provide information on vehicles that are in arrears"
+          desc="Taurus is an application that can make it easier for leasing to track vehicles paid in installments by partners so that it can provide information on vehicles that are in arrears"
           image="/taurus.png"
           technology="NuxtJs, Golang, Mysql"
           downloads=""
           url=""
         />
       </div>
+      <p
+        class="text-white text-sm text-center pt-5 cursor-pointer hover:text-primary transition duration-300"
+      >
+        View More
+      </p>
     </div>
   </section>
 </template>

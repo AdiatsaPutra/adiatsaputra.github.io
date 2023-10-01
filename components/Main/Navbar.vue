@@ -4,7 +4,9 @@
   <header class="sticky top-0 z-50 bg-gray-900">
     <div class="w-screen flex justify-center backdrop-blur-2xl">
       <div class="md:w-5/6 lg:w-3/6 2xl:w-2/6 px-16 md:px-0">
-        <div class="flex flex-row justify-between items-center py-5 sticky">
+        <div
+          class="flex flex-row justify-between items-center gap-4 py-5 sticky"
+        >
           <img
             src="/logo.png"
             alt="Me"

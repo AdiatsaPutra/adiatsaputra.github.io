@@ -19,15 +19,15 @@ const props = defineProps({
           <img
             :src="image"
             alt="Me"
-            class="absolute top-0 rounded w-full h-full self-center object-contain"
+            class="absolute top-0 rounded w-full h-full self-center object-contain hover:scale-150 transition duration-300"
           />
         </div>
         <div>
           <p class="text-xl text-white font-bold mb-3">{{ title }}</p>
-          <p class="text-xs text-gray-400 text-justify mb-3">
+          <p class="text-xs text-gray-400 text-justify mb-3 h-20">
             {{ desc }}
           </p>
-          <div class="flex flex-row gap-4">
+          <div class="flex flex-row gap-4 items-center">
             <p
               class="text-xs text-primary mt-2 bg-primary py-1 px-3 rounded-full bg-opacity-20"
             >

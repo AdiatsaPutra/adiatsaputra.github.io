@@ -14,16 +14,16 @@
           />
           <div class="flex flex-row gap-4">
             <a
+              href="#about"
+              class="text-xs text-white hover:underline hover:text-primary transition cursor-pointer"
+            >
+              About
+            </a>
+            <a
               href="#projects"
               class="text-xs text-white hover:underline hover:text-primary transition cursor-pointer"
             >
               Projects
-            </a>
-            <a
-              href=""
-              class="text-xs text-white hover:underline hover:text-primary transition cursor-pointer"
-            >
-              About
             </a>
             <a
               href=""

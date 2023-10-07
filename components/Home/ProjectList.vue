@@ -2,7 +2,7 @@
 
 <template>
   <section id="projects">
-    <div>
+    <div v-motion-slide-visible-bottom>
       <p class="text-xl md:text-2xl font-bold text-white pb-10">Projects</p>
       <div class="flex flex-col gap-7">
         <HomeProjectCard
@@ -38,11 +38,13 @@
           url=""
         />
       </div>
-      <p
-        class="text-white text-sm text-center pt-5 cursor-pointer hover:text-primary transition duration-300"
-      >
-        View More
-      </p>
+      <a href="/projects">
+        <p
+          class="text-white text-sm text-center pt-5 cursor-pointer hover:text-primary transition duration-300"
+        >
+          View More
+        </p>
+      </a>
     </div>
   </section>
 </template>

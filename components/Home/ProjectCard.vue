@@ -24,7 +24,7 @@ const props = defineProps({
         </div>
         <div>
           <p class="text-xl text-white font-bold mb-3">{{ title }}</p>
-          <p class="text-xs text-gray-400 text-justify mb-3 h-20">
+          <p class="text-xs text-gray-400 text-justify mb-3 md:h-20">
             {{ desc }}
           </p>
           <div class="flex flex-row gap-4 items-center">
@@ -41,7 +41,9 @@ const props = defineProps({
                   size="1.5em"
                   class="cursor-pointer"
                 />
-                <p class="text-xs text-white mt-2">{{ downloads }} downloads</p>
+                <p class="text-xs text-white mt-2">
+                  {{ downloads }} downloads (playstore)
+                </p>
               </div>
             </div>
           </div>

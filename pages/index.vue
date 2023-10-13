@@ -9,7 +9,7 @@ const { x, y } = useMouse();
   <div>
     <HomeTopInfo />
     <HomeAbout />
-    <HomeProjectList />
+    <HomeProjectList :hasViewMore="true" />
     <HomeUpdates />
     <HomeFooter />
   </div>

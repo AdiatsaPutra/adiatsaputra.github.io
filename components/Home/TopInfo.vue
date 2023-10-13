@@ -9,15 +9,13 @@
       <div
         class="flex flex-col gap-3 text-white pb-10 justify-center items-center"
       >
-        <h1 class="text-md text-center md:pt-24 text-primary">
+        <h1 class="text-xl text-center md:pt-24 text-primary">
           Hi, I'm Adiatsa Putra
         </h1>
         <p class="text-6xl md:text-9xl font-bold text-center">
-          Frontend Developer Since 2020
+          Frontend Developer
         </p>
-        <div
-          class="text-xs md:text-sm text-gray-400 text-center md:py-5 md:w-4/6"
-        >
+        <div class="text-md text-gray-400 text-center md:py-5 md:w-4/6">
           With 3 years experience of building fast and scalable frontend
           products with great user experience.
         </div>

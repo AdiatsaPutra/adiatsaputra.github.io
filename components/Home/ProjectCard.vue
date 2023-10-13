@@ -14,8 +14,8 @@ const props = defineProps({
     class="flex flex-col gap-4 rounded-lg bg-gray-800 border-2 border-transparent p-5 hover:border-2 hover:border-gray-700 transition duration-300 cursor-pointer"
   >
     <a :href="url">
-      <div class="flex flex-col md:flex-row gap-4">
-        <div class="relative pb-40 pr-0 md:pr-40">
+      <div class="flex flex-col gap-4">
+        <div class="relative pb-40 pr-0 md:pr-40 md:h-96">
           <img
             :src="image"
             alt="Me"

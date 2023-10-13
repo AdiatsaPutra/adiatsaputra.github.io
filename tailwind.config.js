@@ -16,6 +16,9 @@ module.exports = {
       height: {
         0.1: "0.1px",
       },
+      borderWidth: {
+        0.1: "0.1px",
+      },
     },
   },
   plugins: [],

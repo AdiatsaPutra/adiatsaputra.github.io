@@ -1,4 +1,8 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const props = defineProps({
+  hasViewMore: { type: Boolean, required: true },
+});
+</script>
 
 <template>
   <section id="projects">
@@ -22,6 +26,14 @@
           url="https://play.google.com/store/apps/details?id=id.pastiangkut.customer&utm_source=website&utm_campaign=merdekasampah"
         />
         <HomeProjectCard
+          title="Orbit360"
+          desc="Orbit360 is a student management app."
+          image="/orbit.png"
+          technology="Flutter"
+          downloads=""
+          url=""
+        />
+        <HomeProjectCard
           title="MirotaKlik"
           desc="MirotaKlik is a an app to manage Mirota KSM product with checkin, checkout and manage stock."
           image="/mirota.png"
@@ -38,13 +50,15 @@
           url=""
         />
       </div>
-      <a href="/projects">
-        <p
-          class="text-white text-sm text-center pt-5 cursor-pointer hover:text-primary transition duration-300"
-        >
-          View More
-        </p>
-      </a>
+      <div v-if="hasViewMore">
+        <a href="/projects">
+          <p
+            class="text-white text-sm text-center pt-5 cursor-pointer hover:text-primary transition duration-300"
+          >
+            View More
+          </p>
+        </a>
+      </div>
     </div>
   </section>
 </template>

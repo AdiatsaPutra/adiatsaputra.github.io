@@ -8,20 +8,18 @@
         class="flex flex-col-reverse md:flex-row justify-center items-center md:justify-between my-5"
       >
         <div class="flex flex-col gap-2 text-justify md:w-4/6 leading-relaxed">
-          <p class="text-gray-400 text-xs">
+          <p class="text-gray-400 text-sm">
             My name is Adiatsa and I'm a student at Muhammadiyah University Of
-            Yogyakarta, majoring Information Technology. Tech has been my
-            favorite subject since my highschool, so that's why I decided to be
-            in Information Technology. I have been interested with Mobile and
-            Web Development since the beginning of my college since its
-            chalenging and it's super satisfying to solve the problem.
+            Yogyakarta, majoring Information Technology. I have been interested
+            with Mobile and Web Development since the beginning of my college
+            since its chalenging and it's super satisfying to solve the problem.
           </p>
-          <p class="text-gray-400 text-xs my-3">
+          <p class="text-gray-400 text-sm my-2">
             Fast forward today, I've been a freelancher since 2020 and I've
             handle various small and large project with 18hole and Ylabs,
             building mobile apps and ocassionally building web apps too.
           </p>
-          <p class="text-gray-400 text-xs">Here are technologies that I use:</p>
+          <p class="text-gray-400 text-sm">Here are technologies that I use:</p>
           <div class="grid grid-cols-3 md:grid-cols-5 gap-2">
             <p
               class="text-xs text-primary text-center bg-primary py-1 px-3 rounded-full bg-opacity-20"

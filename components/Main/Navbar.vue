@@ -26,7 +26,7 @@
               Projects
             </a>
             <a
-              href=""
+              href="#contact"
               class="text-xs text-white hover:underline hover:text-primary transition cursor-pointer"
             >
               Contact

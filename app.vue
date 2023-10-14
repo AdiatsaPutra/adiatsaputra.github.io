@@ -2,6 +2,24 @@
 // @ts-ignore
 import { useMouse } from "@vueuse/core";
 
+const title = ref("Adiatsa");
+const description = ref(
+  "Adiatsa is a Frontend Developer with 3 years experience of building fast and scalable frontend products with great user experience."
+);
+
+useHead({
+  title,
+  meta: [
+    {
+      name: "description",
+      content: description,
+    },
+  ],
+  htmlAttrs: {
+    lang: "en",
+  },
+});
+
 const { x, y } = useMouse();
 </script>
 

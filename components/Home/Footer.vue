@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <section>
+  <section id="contact">
     <div
       class="mt-16 p-5 bg-slate-800 border-2 border-transparent rounded-xl flex flex-col gap-1 hover:border-2 hover:border-gray-700 transition"
     >

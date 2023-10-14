@@ -34,7 +34,7 @@
           >
             Download CV
           </a>
-          <a href="https://github.com/AdiatsaPutra">
+          <a href="https://github.com/AdiatsaPutra" aria-label="Github">
             <Icon
               name="uil:github"
               color="white"
@@ -42,7 +42,7 @@
               class="cursor-pointer"
             />
           </a>
-          <a href="https://www.linkedin.com/in/adiatsa/">
+          <a href="https://www.linkedin.com/in/adiatsa/" aria-label="LinkedIn">
             <Icon
               name="uil:linkedin"
               color="white"

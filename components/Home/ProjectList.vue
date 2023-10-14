@@ -6,7 +6,7 @@ const props = defineProps({
 
 <template>
   <section id="projects">
-    <div v-motion-slide-visible-bottom>
+    <div class="pt-28" v-motion-slide-visible-bottom>
       <p class="text-xl md:text-2xl font-bold text-white pb-10">Projects</p>
       <div class="flex flex-col gap-7">
         <HomeProjectCard

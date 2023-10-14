@@ -24,7 +24,7 @@ const { x, y } = useMouse();
 </script>
 
 <template>
-  <div>
+  <div class="scroll-smooth overflow-hidden">
     <MainNavbar />
     <div class="bg-gray-900">
       <div

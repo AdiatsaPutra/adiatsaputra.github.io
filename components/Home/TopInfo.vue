@@ -24,7 +24,7 @@
         >
           <a
             href="mailto:adiatsaputraa@gmail.com"
-            class="bg-primary py-1 px-2 md:py-2 md:px-5 text-center transition duration-200 rounded text-xs"
+            class="bg-primary text-gray-800 py-1 px-2 md:py-2 md:px-5 text-center transition duration-200 rounded text-xs"
           >
             Contact Me
           </a>

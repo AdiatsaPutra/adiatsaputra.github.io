@@ -49,7 +49,7 @@
           </div>
         </div>
         <img
-          src="/me_pic.png"
+          src="https://ik.imagekit.io/nqy1et4e1/me_pic.png?updatedAt=1697603068372"
           alt=""
           class="w-40 h-40 mb-5 hover:scale-105 transition duration-300"
         />

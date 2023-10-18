@@ -2,7 +2,7 @@
 
 <template>
   <section id="about">
-    <div class="mb-10" v-motion-slide-visible-bottom>
+    <div class="mb-10">
       <p class="text-xl md:text-2xl font-bold text-white">About Me</p>
       <div
         class="flex flex-col-reverse md:flex-row justify-center items-center md:justify-between my-5"

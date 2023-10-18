@@ -4,7 +4,6 @@
   <section>
     <div
       class="pt-10 flex flex-col-reverse justify-center items-center md:flex-row md:justify-between md:pb-72 md:h-screen"
-      v-motion-slide-visible-bottom
     >
       <div
         class="flex flex-col gap-3 text-white pb-10 justify-center items-center"

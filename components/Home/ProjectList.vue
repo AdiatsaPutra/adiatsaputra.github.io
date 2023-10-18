@@ -6,13 +6,13 @@ const props = defineProps({
 
 <template>
   <section id="projects">
-    <div class="pt-28" v-motion-slide-visible-bottom>
+    <div>
       <p class="text-xl md:text-2xl font-bold text-white pb-10">Projects</p>
-      <div class="flex flex-col gap-7">
+      <div class="flex flex-col gap-10 md:gap-20">
         <HomeProjectCard
           title="18hole"
           desc="18 Hole is a golf application that makes it easy for players to know the progress of playing golf by converting the total score into a handicap index easily and quickly. With 18 holes, communication between golf players is also easier because there is a community feature that can connect golf players in it."
-          image="https://18hole.id/wp-content/uploads/2022/02/img-header.png"
+          image="https://18hole.id/wp-content/uploads/2022/02/about.png"
           technology="Flutter"
           downloads="5k"
           url="https://play.google.com/store/apps/details?id=com.eighteenhole.gamatechno"
@@ -20,23 +20,23 @@ const props = defineProps({
         <HomeProjectCard
           title="Pastiangkut"
           desc="Pasti Angkut is a digital-based waste management platform, which helps and makes it easier for you in the waste disposal process. You don't have to bother sorting out your trash and throwing it to a remote location, just collect your trash and let us pick it up."
-          image="https://www.pastiangkut.id/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpastiangkut-banner-01.ed5bbab6.png&w=640&q=75"
+          image="/pastiangkut.png"
           technology="Flutter"
           downloads="1k"
           url="https://play.google.com/store/apps/details?id=id.pastiangkut.customer&utm_source=website&utm_campaign=merdekasampah"
         />
         <HomeProjectCard
-          title="Orbit360"
-          desc="Orbit360 is a student management app."
-          image="/orbit.png"
+          title="MirotaKlik"
+          desc="MirotaKlik is a an app to manage Mirota KSM product with checkin, checkout and manage stock."
+          image="/mirota.png"
           technology="Flutter"
           downloads=""
           url=""
         />
         <HomeProjectCard
-          title="MirotaKlik"
-          desc="MirotaKlik is a an app to manage Mirota KSM product with checkin, checkout and manage stock."
-          image="/mirota.png"
+          title="Orbit360"
+          desc="Orbit360 is a student management app."
+          image="/orbit.png"
           technology="Flutter"
           downloads=""
           url=""

@@ -12,7 +12,7 @@ const props = defineProps({
 <template>
   <div>
     <div
-      class="w-full h-[150px] md:h-[330px] overflow-hidden bg-primary flex justify-center items-center"
+      class="w-full h-[150px] sm:h-[240px] md:h-[330px] overflow-hidden bg-primary flex justify-center items-center"
     >
       <img
         :src="image"

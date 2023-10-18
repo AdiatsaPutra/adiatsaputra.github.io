@@ -45,7 +45,7 @@ const props = defineProps({
         {{ desc }}
       </p>
       <div class="flex flex-row pt-2 gap-4 text-white text-sm">
-        <a :href="url">
+        <a :href="url" v-if="downloads != ''">
           <p class="hover:text-primary transition duration-300">
             See On Playstore
           </p>

@@ -6,54 +6,42 @@ const props = defineProps({
   image: { type: String, required: true },
   technology: { type: String, required: true },
   url: { type: String, required: true },
+  firstImage: { type: Boolean, default: false },
 });
 </script>
 
 <template>
   <div>
-    <div
-      class="w-full h-[150px] sm:h-[240px] md:h-[330px] overflow-hidden bg-primary flex justify-center items-center"
-    >
-      <img
-        :src="image"
-        class="hover:scale-125 transition duration-500 cursor-pointer"
-      />
+    <div v-if="firstImage"
+      class="w-[700px] h-[240px] md:h-[270px] overflow-hidden bg-gray-400 flex justify-center items-center rounded-t">
+      <img :src="image" class="hover:scale-125 transition duration-500" />
     </div>
-    <div>
-      <p class="text-xl text-white font-bold pt-5">{{ title }}</p>
+    <div v-else
+      class="w-full h-[240px] md:h-[270px] overflow-hidden bg-gray-400 flex justify-center items-center rounded-t">
+      <img :src="image" class="hover:scale-125 transition duration-500" />
+    </div>
+    <div class="bg-gray-800 p-5 h-40 rounded-b">
+      <p class="text-xl text-white font-bold">{{ title }}</p>
       <div class="flex flex-row gap-4 items-center">
-        <p
-          class="text-xs text-primary mt-2 bg-primary py-1 px-3 rounded-full bg-opacity-20"
-        >
+        <p class="text-xs text-primary mt-2 bg-primary py-1 px-3 rounded-full bg-opacity-20">
           {{ technology }}
         </p>
         <div v-if="downloads != ''">
-          <div class="flex flex-row gap-2 items-center">
-            <Icon
-              name="uil:download-alt"
-              color="white"
-              size="1.5em"
-              class="cursor-pointer"
-            />
-            <p class="text-xs text-white mt-2">
-              {{ downloads }} downloads (playstore)
-            </p>
-          </div>
+          <a :href="url">
+            <div class="flex flex-row gap-2 items-center">
+              <Icon name="uil:download-alt" color="white" size="1.5em" class="cursor-pointer" />
+              <p class="text-xs text-white mt-2 hover:text-primary hover:transition duration-300">
+                {{ downloads }} downloads (playstore)
+              </p>
+            </div>
+          </a>
         </div>
       </div>
-      <p class="text-xs text-gray-400 text-justify my-2">
+      <!-- <p class="text-xs text-gray-400 text-justify my-2">
         {{ desc }}
-      </p>
-      <div class="flex flex-row pt-2 gap-4 text-white text-sm">
-        <a :href="url" v-if="downloads != ''">
-          <p class="hover:text-primary transition duration-300">
-            See On Playstore
-          </p>
-        </a>
-        <a href="">
-          <p class="hover:text-primary transition duration-300">See Detail</p>
-        </a>
-      </div>
+      </p> -->
+
+      <p class="hover:text-primary transition text-white duration-300 text-sm mt-5 cursor-pointer">See Detail</p>
     </div>
   </div>
 </template>

@@ -2,57 +2,53 @@
 
 <template>
   <section id="about">
-    <div class="mb-10">
-      <p class="text-xl md:text-2xl font-bold text-white">About Me</p>
-      <div
-        class="flex flex-col-reverse md:flex-row justify-center items-center md:justify-between my-5"
-      >
-        <div class="flex flex-col gap-2 text-justify md:w-4/6 leading-relaxed">
-          <p class="text-gray-400 text-sm">
-            My name is Adiatsa and I'm a student at Muhammadiyah University Of
-            Yogyakarta, majoring Information Technology. I have been interested
-            with Mobile and Web Development since the beginning of my college
-            since its chalenging and it's super satisfying to solve the problem.
-          </p>
-          <p class="text-gray-400 text-sm my-2">
-            Fast forward today, I've been a freelancher since 2020 and I've
-            handle various small and large project with 18hole and Ylabs,
-            building mobile apps and ocassionally building web apps too.
-          </p>
-          <p class="text-gray-400 text-sm">Here are technologies that I use:</p>
-          <div class="grid grid-cols-3 md:grid-cols-5 gap-2">
-            <p
-              class="text-xs text-primary text-center bg-primary py-1 px-3 rounded-full bg-opacity-20"
-            >
-              Flutter
-            </p>
-            <p
-              class="text-xs text-primary text-center bg-primary py-1 px-3 rounded-full bg-opacity-20"
-            >
-              Javascript
-            </p>
-            <p
-              class="text-xs text-primary text-center bg-primary py-1 px-3 rounded-full bg-opacity-20"
-            >
-              Typescript
-            </p>
-            <p
-              class="text-xs text-primary text-center bg-primary py-1 px-3 rounded-full bg-opacity-20"
-            >
-              Nuxt/Vue
-            </p>
-            <p
-              class="text-xs text-primary text-center bg-primary py-1 px-3 rounded-full bg-opacity-20"
-            >
-              Golang
-            </p>
+    <div class="w-full flex justify-center items-center py-7">
+      <div class="">
+        <p class="text-xl md:text-4xl font-bold text-white pb-7">My Expertise</p>
+        <div class="flex flex-col md:flex-row items-center border-2 border-gray-400">
+          <div class="flex flex-col w-full h-64 p-10 justify-center">
+            <div class="flex flex-row gap-5">
+              <Icon name="mi:computer" color="white" size="4em" class="cursor-pointer" />
+              <div class="flex flex-col items-start">
+                <p class="before:block before:absolute before:-inset-1 before:bg-pink-500 relative inline-block">
+                  <span class="relative text-white">Software</span>
+                </p>
+                <p class="text-white py-2">Development</p>
+              </div>
+            </div>
+            <p class="text-xs text-white pt-5 leading-relaxed">4 Years Experience in OOP and functional Dart, Javascript,
+              Typescript and Golang</p>
+          </div>
+          <div class="flex flex-col border-y-2 md:border-x-2 border-gray-400 w-full h-64 p-10 justify-center">
+            <div class="flex flex-row gap-5">
+              <Icon name="material-symbols:flutter" color="white" size="4em" class="cursor-pointer" />
+              <div class="flex flex-col items-start">
+                <p class="before:block before:absolute before:-inset-1 before:bg-blue-500 relative inline-block">
+                  <span class="relative text-white">Mobile</span>
+                </p>
+                <p class="text-white py-2">Development</p>
+              </div>
+            </div>
+            <p class="text-xs text-white pt-5 leading-relaxed">3 years experience in developing cross platform mobile
+              application
+              using Flutter
+              Framework</p>
+          </div>
+          <div class="flex flex-col w-full h-64 p-10 justify-center">
+            <div class="flex flex-row gap-5">
+              <Icon name="akar-icons:vue-fill" color="white" size="4em" class="cursor-pointer" />
+              <div class="flex flex-col items-start">
+                <p class="before:block before:absolute before:-inset-1 before:bg-orange-500 relative inline-block">
+                  <span class="relative text-white">Web</span>
+                </p>
+                <p class="text-white py-2">Development</p>
+              </div>
+            </div>
+            <p class="text-xs text-white pt-5 leading-relaxed">Experienced in Nuxtjs as a Frontend Framework, Go as
+              Backend Framework and
+              Mysql as Database</p>
           </div>
         </div>
-        <img
-          src="https://ik.imagekit.io/nqy1et4e1/me_pic.png?updatedAt=1697603068372"
-          alt=""
-          class="w-40 h-40 mb-5 hover:scale-105 transition duration-300"
-        />
       </div>
     </div>
   </section>

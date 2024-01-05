@@ -37,9 +37,9 @@ const props = defineProps({
           </a>
         </div>
       </div>
-      <!-- <p class="text-xs text-gray-400 text-justify my-2">
+      <p class="text-xs text-gray-200 text-justify my-2">
         {{ desc }}
-      </p> -->
+      </p>
 
       <!-- <p class="hover:text-primary transition text-white duration-300 text-sm mt-5 cursor-pointer">See Detail</p> -->
     </div>

@@ -58,22 +58,20 @@ const props = defineProps({
           <HomeProjectCard title="Orbit360" desc="Orbit360 is a student management app."
             image="https://ik.imagekit.io/nqy1et4e1/c1.png?updatedAt=1700204402332" technology="Flutter" downloads=""
             url="" />
-          <HomeProjectCard title="MirotaKlik"
-            desc="MirotaKlik is a an app to manage Mirota KSM product with checkin, checkout and manage stock."
+          <HomeProjectCard title="SIBABA" desc="Sistem informasi BADKODA TKA-TPA Bantul."
             image="https://ik.imagekit.io/nqy1et4e1/b1.png?updatedAt=1700204386896" technology="Flutter" downloads=""
             url="" />
         </div>
         <div class="flex flex-col md:flex-row gap-4">
-          <HomeProjectCard title="MirotaKlik"
-            desc="MirotaKlik is a an app to manage Mirota KSM product with checkin, checkout and manage stock."
+          <HomeProjectCard title="Relasi" desc="Aplikasi Relasi event"
             image="https://ik.imagekit.io/nqy1et4e1/Group%20160.png?updatedAt=1700219598475" technology="Flutter"
             downloads="" url="" />
-          <HomeProjectCard title="MirotaKlik"
-            desc="MirotaKlik is a an app to manage Mirota KSM product with checkin, checkout and manage stock."
+          <HomeProjectCard title="Si Atma"
+            desc="Aplikasi bertujuan sebagai sarana pengingat konsumsi obat untuk penderita TBC."
             image="https://ik.imagekit.io/nqy1et4e1/Group%20154.png?updatedAt=1700219074071" technology="Flutter"
             downloads="" url="" />
           <HomeProjectCard title="Taurus"
-            desc="Taurus is an application that can make it easier for leasing to track vehicles paid in installments by partners so that it can provide information on vehicles that are in arrears"
+            desc="Taurus is an application that can make it easier for leasing to track vehicles paid in installments by partners."
             image="https://ik.imagekit.io/nqy1et4e1/d1.png?updatedAt=1700204410614" technology="NuxtJs, Golang, Mysql"
             downloads="" url="" />
         </div>

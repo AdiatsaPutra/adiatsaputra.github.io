@@ -41,7 +41,7 @@ const props = defineProps({
         {{ desc }}
       </p> -->
 
-      <p class="hover:text-primary transition text-white duration-300 text-sm mt-5 cursor-pointer">See Detail</p>
+      <!-- <p class="hover:text-primary transition text-white duration-300 text-sm mt-5 cursor-pointer">See Detail</p> -->
     </div>
   </div>
 </template>

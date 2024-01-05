@@ -27,9 +27,13 @@ const props = defineProps({
                 </p>
               </div>
             </a>
-            <a href=""
-              class="bg-purple-600 hover:bg-purple-900 transition duration-300 text-white py-2 px-5 text-center text-xs">
-              View Project
+            <a href="https://apps.apple.com/id/app/18hole/id1601916355">
+              <div class="flex flex-row gap-2 items-center cursor-pointer">
+                <Icon name="uil:download-alt" color="white" size="1.5em" class="cursor-pointer" />
+                <p class="text-xs text-white mt-2 hover:text-primary hover:transition duration-300">
+                  4k downloads (appstore)
+                </p>
+              </div>
             </a>
           </div>
           <img src="/featured.gif" alt="" width="400" style="mix-blend-mode: screen;">

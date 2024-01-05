@@ -84,7 +84,7 @@ const props = defineProps({
         </a>
       </div> -->
     </div>
-    <div class="mt-16 md:mt-56">
+    <!-- <div class="mt-16 md:mt-56">
       <p class="text-4xl text-white text-center font-bold">Experience</p>
       <div class="flex flex-col items-center gap-4 mt-4">
         <div class="w-full md:w-7/12">
@@ -99,6 +99,6 @@ const props = defineProps({
             link="/docs/getting-started/introduction/" linkText="get started" />
         </div>
       </div>
-    </div>
+    </div> -->
   </section>
 </template>

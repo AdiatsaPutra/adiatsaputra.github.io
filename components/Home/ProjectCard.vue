@@ -13,7 +13,7 @@ const props = defineProps({
 <template>
   <div>
     <div v-if="firstImage"
-      class="w-[700px] h-[240px] md:h-[360px] overflow-hidden bg-gray-700 flex justify-center items-center rounded-t">
+      class="w-full md:w-[700px] h-[240px] md:h-[360px] overflow-hidden bg-gray-700 flex justify-center items-center rounded-t">
       <img :src="image" class="hover:scale-125 transition duration-500" />
     </div>
     <div v-else

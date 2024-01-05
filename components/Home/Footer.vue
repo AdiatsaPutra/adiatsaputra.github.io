@@ -6,7 +6,7 @@
       class="mt-16 md:mt-56 p-5 bg-slate-800 border-2 border-transparent rounded-xl flex flex-col gap-1 hover:border-2 hover:border-gray-700 transition">
       <p class="text-lg text-white">Want to talk about a project?</p>
       <p class="text-sm text-gray-400 pb-2">Drop your message here</p>
-      <a href="https://api.whatsapp.com/send?phone=15551234567"
+      <a href="https://api.whatsapp.com/send?phone=6281568378309"
         class="bg-green-600 text-white py-2 px-5 text-center text-xs">
         Chat Me On Whatsapp
       </a>

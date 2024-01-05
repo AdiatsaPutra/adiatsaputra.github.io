@@ -41,17 +41,15 @@ const props = defineProps({
       </div>
       <!-- <p class="text-xl md:text-2xl font-bold text-white pb-7">Projects</p> -->
       <div class="flex flex-col gap-4 mt-16">
-        <div class="flex flex-col md:flex-row gap-4">
-          <HomeProjectCard title="18hole"
-            desc="18 Hole is a golf application that makes it easy for players to know the progress of playing golf by converting the total score into a handicap index easily and quickly. With 18 holes, communication between golf players is also easier because there is a community feature that can connect golf players in it."
-            image="https://ik.imagekit.io/nqy1et4e1/about.png?updatedAt=1697604263203" technology="Flutter" downloads="5k"
-            url="https://play.google.com/store/apps/details?id=com.eighteenhole.gamatechno" :firstImage="true" />
-          <HomeProjectCard title="Pastiangkut"
-            desc="Pasti Angkut is a digital-based waste management platform, which helps and makes it easier for you in the waste disposal process. You don't have to bother sorting out your trash and throwing it to a remote location, just collect your trash and let us pick it up."
-            image="https://ik.imagekit.io/nqy1et4e1/Group%20913.png?updatedAt=1700220224887" technology="Flutter"
-            downloads="1k"
-            url="https://play.google.com/store/apps/details?id=id.pastiangkut.customer&utm_source=website&utm_campaign=merdekasampah" />
-        </div>
+        <HomeProjectCard title="18hole"
+          desc="18 Hole is a golf application that makes it easy for players to know the progress of playing golf by converting the total score into a handicap index easily and quickly. With 18 holes, communication between golf players is also easier because there is a community feature that can connect golf players in it."
+          image="https://ik.imagekit.io/nqy1et4e1/about.png?updatedAt=1697604263203" technology="Flutter" downloads="5k"
+          url="https://play.google.com/store/apps/details?id=com.eighteenhole.gamatechno" />
+        <HomeProjectCard title="Pastiangkut"
+          desc="Pasti Angkut is a digital-based waste management platform, which helps and makes it easier for you in the waste disposal process. You don't have to bother sorting out your trash and throwing it to a remote location, just collect your trash and let us pick it up."
+          image="https://ik.imagekit.io/nqy1et4e1/Group%20913.png?updatedAt=1700220224887" technology="Flutter"
+          downloads="1k"
+          url="https://play.google.com/store/apps/details?id=id.pastiangkut.customer&utm_source=website&utm_campaign=merdekasampah" />
         <div class="flex flex-col md:flex-row gap-4">
           <HomeProjectCard title="MirotaKlik"
             desc="MirotaKlik is a an app to manage Mirota KSM product with checkin, checkout and manage stock."

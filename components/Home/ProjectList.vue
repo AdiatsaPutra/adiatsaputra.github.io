@@ -19,7 +19,7 @@ const props = defineProps({
           <div class="flex flex-col gap-2">
             <p>Featured Projects</p>
             <p class="text-4xl font-bold">18hole</p>
-            <a :href="url">
+            <a href="https://play.google.com/store/apps/details?id=com.eighteenhole.gamatechno">
               <div class="flex flex-row gap-2 items-center cursor-pointer">
                 <Icon name="uil:download-alt" color="white" size="1.5em" class="cursor-pointer" />
                 <p class="text-xs text-white mt-2 hover:text-primary hover:transition duration-300">
